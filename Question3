@@ -1,8 +1,26 @@
-Question 3:
-You are required to have self study for the following topic, please submit your study notes. You
-may be required to present the content when having an interview.
-Note: Can be in Chinese or English.
-
 1. What is Git and why is it used?
+Ans : 
+
+What is Git : 
+Git is a version control system for keeping track of changes to files. 
+Using Git lets you always have a record of all adjustments, and return to specific versions when needed. 
+Using it is easy to learn and takes up minimal space with high productivity.  
+The feature that sets it apart from nearly every other SCM out there is its branching model. 
+What makes Git extremely simple is the ability to merge changes from several people into a single source.  
+You can use GitHub or other online hosts where you can also store backups of your files and their revision history. 
+
+Why is Git used :
+Synchronous development >> Everyone has their local instance of the code, and everyone can work on their branches at the same time. Git works offline because almost all operations run locally.
+Increase team speed and productivity >> Git makes keeping track of changes to your code easy for your team. So you can focus on writing code instead of wasting time tracking and merging different versions into your team. It also calculates and stores your main repository locally, making it faster for most operations.
+Open Source >> Open source allows developers from all over the world to contribute to the software and make it more and more powerful through features and extra plugins. This has led to the Linux kernel consisting of 15 million lines of code.
+Security >> SHA-1 cryptography keeps you safe. This algorithm securely manages your versions, files and directories to avoid any damage to your work.
+Git is an Industry Standard >> It is highly popular, and major IDEs support it.
 
 2. What is the difference between List, Dictionary, Tuple and Set in Python?
+Ans : 
+
+A list is a sequence of elements in a specific order. You can access elements with a numerical index, e.g. the_list[3]. The time taken for several operations such as testing if the list contains an element is O(n), i.e. proportional to the length of the list.
+A tuple is basically an immutable list, meaning you can't add, remove, or replace any elements.
+A set has no order, but has the advantage over a list that testing if the set contains an element is much faster, almost regardless of the size of the set. It also has some handy operations such as union and intersection.
+A dictionary is a mapping from keys to values where the keys can be all sorts of different objects, in contrast to lists where the 'keys' can only be numbers. So you can have the_dict = {'abc': 3, 'def': 8} and then the_dict['abc'] is 3. They keys of a dict are much like a set: they have no order and you can test for their existence quickly.
+The elements of a set and the keys of a dict must be hashable. Numbers, strings, tuples, and many other things are hashable. Lists, sets, and dicts are not hashable.
