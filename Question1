@@ -1,7 +1,23 @@
-def find_max(numbers):
-# your code here
-def find_position(numbers, target):
-# your code here
+
+
+
+def find_max(list_num):
+    max_num = list_num[0]
+    for x in range(len(list_num)):
+        if max_num < list_num[x]:
+            max_num = list_num[x]
+    return(max_num)
+    
+    
+def find_position(list_num, target):
+    find = -1
+    for x in range(len(list_num)):
+        if list_num[x] == target:
+            find = x
+            break
+    return find
+
+
 print(find_max([1, 2, 4, 5]) ); # should print 5
 print(find_max([5, 2, 7, 1, 6]) ); # should print 7
 print(find_position([5, 2, 7, 1, 6], 5)) # should print 0
